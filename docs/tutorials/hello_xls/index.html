@@ -1307,7 +1307,7 @@ compiler toolchain and a Python3 interpreter; check with your distribution for
 installation instructions for both.</p>
 </blockquote>
 <p>Start the XLS build by running:</p>
-<div class="highlight"><pre><span></span><code>bazel build -c opt xls/...
+<div class="highlight"><pre><span></span><code>cd xls && bazel build -c opt xls/...
 </code></pre></div>
 <p>Then go get a cup of coffee. LLVM and Z3 are big projects, and will take a while
 to compile (but only the first time). Binary releases are coming soon: they'll
